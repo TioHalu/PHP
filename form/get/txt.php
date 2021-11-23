@@ -1,0 +1,1 @@
+method get url akan mengirimkan informasi method

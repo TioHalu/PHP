@@ -79,8 +79,7 @@ for ($baris = 0; $baris < 3; $baris++) {
   }
   echo "</ul>";
 }
-$hasil = 5 + 5 / 2 * 10;
-echo $hasil;
+
 
 ?>
 

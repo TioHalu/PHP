@@ -7,7 +7,7 @@ $Kelas="tk4301";
 $_alamat_tinggal="bundang";
 $TEMPAT_LAHIR="indonesia";
 
-function welcome($name){
+function welcome($name){//function di php
 echo $name;
 }
 
@@ -25,7 +25,7 @@ echo $name;
     <h1>nama <?php echo $nama ?></h1>
     <h2>kelas: <?php echo $Kelas?></h2>
     <p>alamat : <?php echo $_alamat_tinggal, $TEMPAT_LAHIR?></p>
-
-    <h1>selamat datang , <?php welcome($nama)?></h1>
+<!-- contoh pemanggilan fungsi -->
+    <h1>selamat datang , <?php welcome($nama)?></h1> 
     </body>
 </html>
